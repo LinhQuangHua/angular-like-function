@@ -7,10 +7,10 @@ h5 {
   color: #ffffff;
 }
 
-p{
-      margin-top: 0px;
-    margin-bottom: 0px;
-    position: absolute;
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
 }
 .container {
   justify-content: center;
@@ -55,5 +55,4 @@ p{
 .toggle.active::before {
   content: "\f164";
   font-family: fontAwesome;
-  color: blue;
 }
