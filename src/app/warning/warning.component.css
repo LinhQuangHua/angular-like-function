@@ -1,0 +1,21 @@
+p {
+  font-family: Lato;
+}
+
+.container-2 {
+  margin-top: 100px;
+}
+
+#btn-warning {
+  background-color: red;
+  width: 20%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+#btn-warning:hover{
+  background-color: white;
+  color: black;
+}

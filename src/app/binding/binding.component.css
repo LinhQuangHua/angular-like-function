@@ -1,0 +1,17 @@
+#txt-box {
+  color: black;
+}
+
+#btn-click {
+  background-color: green;
+  width: 10%;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+#btn-click:hover {
+  background-color: white;
+  color: black;
+}
