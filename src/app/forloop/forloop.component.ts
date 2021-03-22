@@ -12,11 +12,11 @@ export class ForloopComponent implements OnInit {
 
   display: boolean = false;
   secrect: string = "Secret Password = tuna";
-  x: number = 2;
-  logs: number[] = [1];
+  x: number = 1;
+  logs: number[] = [];
+ 
   ToggleDisplay() {
     this.display = true;
-    this.secrect = "amazing";
     this.logs.push(this.x++);
   }
 }
