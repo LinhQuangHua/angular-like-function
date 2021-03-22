@@ -1,0 +1,16 @@
+<style>
+  .white {
+    color: white;
+  }
+</style>
+<div class="container-5">
+  <div class="row">
+    <h5>Bài tập Chương 3: Slide 40</h5>
+    <button id="btn-display" (click)="ToggleDisplay()">Display details!</button>
+    <p *ngIf="display">{{secrect}}</p>
+    <p *ngFor="let log of logs; let i = index" [ngStyle]="{backgroundColor: i >= 4 ? 'blue' : 'none'}"
+      [ngClass]="{white: i >= 4}">
+      {{ log }}
+    </p>
+  </div>
+</div>

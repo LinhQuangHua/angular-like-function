@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
 import { BindingComponent } from './binding/binding.component';
+import { ForloopComponent } from './forloop/forloop.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, WarningComponent, SuccessComponent, BindingComponent],
+  declarations: [ AppComponent, WarningComponent, SuccessComponent, BindingComponent, ForloopComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

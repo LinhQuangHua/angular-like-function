@@ -1,0 +1,26 @@
+p {
+  font-family: Lato;
+}
+
+.container-5 {
+  margin-top: 50px;
+}
+
+#btn-display {
+  background-color: blue;
+  width: 20%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+#btn-display:hover {
+  background-color: white;
+  color: black;
+}
+
+.list-number
+{
+  color: white;
+}
