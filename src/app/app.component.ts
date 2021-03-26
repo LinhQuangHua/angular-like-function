@@ -25,5 +25,5 @@ export class AppComponent  {
       this.test = " ";
     }
   }
-
+  currentItem = 'Television';
 }
